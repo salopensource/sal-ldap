@@ -20,7 +20,7 @@ if os.environ['SAL_LDAP_BIND_PASSWORD']:
 
 if os.environ['SAL_LDAP_USER_SEARCH']:
     AUTH_LDAP_USER_SEARCH = LDAPSearch(os.environ['SAL_LDAP_USER_SEARCH'],
-    ldap.SCOPE_SUBTREE, "(%s=%(user)s)" % os.environ['SAL_LDAP_USER_ATTR'])
+    ldap.SCOPE_SUBTREE, "(sAMAccountName=%(user)s)")
 
 
 

@@ -15,5 +15,5 @@ This image extends (macadmins/sal)[https://registry.hub.docker.com/u/macadmins/s
 * ``SAL_LDAP_GROUP_SEARCH``: The search path for groups.
 * ``SAL_LDAP_REQUIRE_GROUP``: A group object to restrict login to.
 * ``SAL_LDAP_START_TLS``: Set to ``true`` to use TLS. Defaults to ``false``
-* ``SAL_LDAP_USER_ATTR``: The ldap attribute to identify the user. Defaults to ``sAMAccountName``
+* ``SAL_LDAP_USER_ATTR``: The ldap attribute to identify the user. Defaults to ``sAMAccountName`` - NOT WORKING, MUST EDIT ``SETTINGS.PY`` TO MAKE THIS CHANGE CURRENTLY
 * ``SAL_LDAP_LOGGING``: Set to ``true`` to enable logging of requests for debugging. Defaults to ``false``.
