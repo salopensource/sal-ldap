@@ -1,6 +1,6 @@
 # Sal-LDAP
 
-This image comprises of a Puppet Server is able to use LDAP authentication. There are many, many things that may need to be changed for your environment - this image works with my AD environment. As such, you may need to override ``settings.py`` completely. This image uses [django-auth-ldap](https://pythonhosted.org/django-auth-ldap/index.html_) to connect to LDAP, so please refer to the documentation there if you need a more custom configuration.
+This image comprises of a Sal Server is able to use LDAP authentication. There are many, many things that may need to be changed for your environment - this image works with my AD environment. As such, you may need to override ``settings.py`` completely. This image uses [django-auth-ldap](https://pythonhosted.org/django-auth-ldap/index.html_) to connect to LDAP, so please refer to the documentation there if you need a more custom configuration.
 
 ## Usage
 
