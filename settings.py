@@ -1,5 +1,5 @@
 # Django settings for sal project.
-from settings_import import ADMINS, TIME_ZONE, LANGUAGE_CODE, ALLOWED_HOSTS, DISPLAY_NAME, PLUGIN_ORDER, DEBUG
+from settings_import import ADMINS, TIME_ZONE, LANGUAGE_CODE, ALLOWED_HOSTS, DISPLAY_NAME, DEBUG
 from system_settings import *
 import ldap
 from django_auth_ldap.config import LDAPSearch, GroupOfNamesType
