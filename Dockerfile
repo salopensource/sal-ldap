@@ -1,4 +1,4 @@
-FROM macadmins/sal:2.3.1.1
+FROM macadmins/sal:2.4.0.555
 MAINTAINER Graham Gilbert <graham@grahamgilbert.com>
 
 ENV SAL_LDAP_SERVER_URI='ldap://ldap' SAL_LDAP_START_TLS=false \
