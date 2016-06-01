@@ -1,5 +1,5 @@
-FROM macadmins/sal:2.6.0
-MAINTAINER Graham Gilbert <graham@grahamgilbert.com>
+FROM macadmins/sal:2.6.3
+MAINTAINER Allister Banks <al@aru-b.com>
 
 ENV SAL_LDAP_SERVER_URI='ldap://ldap' SAL_LDAP_START_TLS=false \
 SAL_LDAP_USER_ATTR="sAMAccountName" \
