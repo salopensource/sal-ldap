@@ -1,4 +1,4 @@
-FROM macadmins/sal:2.7.3
+FROM macadmins/sal:latest
 MAINTAINER Allister Banks <al@aru-b.com>
 
 ENV SAL_LDAP_SERVER_URI='ldap://ldap' SAL_LDAP_START_TLS=false \
