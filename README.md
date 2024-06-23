@@ -1,6 +1,6 @@
 # Sal-LDAP
 
-*This code is archived and is left here for historical purposes. It should not be used in production in it's current state. *
+*This code is archived and is left here for historical purposes. It should not be used in production in it's current state.*
 
 This image expanded on Sal and allowed it to leverage LDAP authentication. There were numerous customizations that were necessary - this image is in use and working for several AD environments, but may not 100% work in yours. You should mount your own ``settings.py`` in the container, at least while figuring out what options you need. This image uses [django-auth-ldap](https://pythonhosted.org/django-auth-ldap/index.html_) to connect to LDAP, so please refer to the documentation there if you need more details on the configuration options.
 
